@@ -1,0 +1,253 @@
+a, a:link {
+	color:#0093ff;
+}
+a:visited {
+	color:#0093ff;
+}
+
+a:hover {
+	color: #0a1340;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	display: block;
+	max-width: 1200px;
+	padding: 15px;
+	margin-bottom:150px;
+}
+.container main, .container aside {
+	margin: 20px 0;
+}
+header {
+	background-color: #0a1340;
+	padding:7px 15px;
+}
+.logo, .site-title, aside, main {
+	display: inline-block;
+}
+.logo img {
+	width: 70px;
+}
+
+.site-title{
+	font-size: 30px;
+	color: #fff;
+	vertical-align: top;
+	float: right;
+	font-weight: bold;
+	text-align: center;
+}
+.title{
+	font-size: 30px;
+	color: #fff;
+	vertical-align: top;
+	float: right;
+	font-weight: bold;
+	display: inline-block;
+}
+
+aside {
+	width: 20%;
+	background-color: #ddd;
+	min-height: 200px;
+	padding: 10px;
+}
+
+.main-image {
+    width: auto; /* Allow width to adjust based on height */
+    height: 100%; /* Set the desired height */
+    display: block; /* Centers the image horizontally */
+    margin: 0 auto; /* Centers the image horizontally */
+    object-fit: cover; /* Ensure the image covers the specified height */
+}
+
+.title1 {
+margin-top: 70px;
+text-align: center;
+font-weight: bold;
+}
+.title2 {
+	text-align: center;
+	}
+
+.admission-requirements {
+	margin: 20px 0;
+}
+.admission-requirements h2 {
+	font-size: 24px;
+	color: #333;
+}
+.admission-requirements ul {
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+
+nav ul {
+	list-style: none;
+	padding:0;
+	margin: 0;
+}
+
+nav ul li {
+	height: 25px;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main {
+	width: 75%;
+	float: right;
+}
+
+main form {
+	max-width: 600px;
+	padding-bottom: 50px;
+}
+
+.student-info table{
+	width: 70%;
+	margin-bottom: 50px;
+}
+
+.student-info td{
+	padding: 7px 5px;
+	border: 1px solid #ddd;
+}
+
+.student-info tr td:first-child {
+	font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='date'],
+input[type='check'],
+select
+{
+	display: block;
+	margin-bottom: 10px;
+	min-width: 250px;
+	border-radius: 5px;
+	padding: 7px;
+}
+
+.login-box {
+	text-align: center;
+	display: block;
+	margin: 20% auto;
+	width: 100%;
+}
+
+.login-form{
+	display: inline-block;
+	text-align: center;
+	background-color: #ddd;
+	padding:40px;
+}
+.clear-fix {
+	clear: clear-both;
+}
+footer {
+	position: fixed;
+	width: 100%;
+	bottom:0;
+	text-align: center;
+	height: 35px;
+	background-color: #ddd;
+	padding-top:9px;
+}
+
+.delete-container {
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* sigupForm */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-signup {
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title{
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.signup-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.signup-container{
+	text-align: center;
+	margin-top: 10%;
+}
