@@ -39,7 +39,7 @@ apache server for php
 
 ## Authors
 
-👤**Makungong Collins Tatang**
+👤**Ndongmo Jerry **
 
 - GitHub: [@NdongmoJerry](https://github.com/NdongmoJerry)
 - Twitter: [@NdongmoJerry](https://x.com/JerryNdongmo)
